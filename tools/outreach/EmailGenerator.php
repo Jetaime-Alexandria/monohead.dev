@@ -12,11 +12,11 @@
 
 <body>
     <h2><a href="/index.php"><i class="fa-solid fa-arrow-left"></i></a> Email Generator.</h2>
-    <small>Created with insperation from <a href="https://marketing-gen.wombos.xyz/">Marketing Email Generator by Jacub</a>.<br><i class="fa-solid fa-user"></i> Created by Jet.<br><i class="fa-solid fa-code"></i> Updated on <?= date('m/d/Y h:i a', filemtime('EmailGenerator.php')) ?></small>
+    <small>Created with insperation from <a href="https://marketing-gen.wombos.xyz/">Marketing Email Generator by Jacub</a>.<br><i class="fa-solid fa-user"></i> Created by Jet.<br><i class="fa-solid fa-code"></i> Updated on <?= date('m/d/Y h:i a', filemtime('EmailGenerator.php')) ?><br><i class="fa-brands fa-github"></i> Source Code: <a href="https://github.com/Jetaime-Alexandria/monohead.dev/tree/main/tools/outreach">https://github.com/Jetaime-Alexandria/monohead.dev/tree/main/tools/outreach</a></small>
     <hr>
     <br>
 
-    <form action="<?= $_SERVER['PHP_SELF'] ?>" method="post">
+    <form>
         <label for="ContentCreator">Content Creator Name: <span style="color: red;">*</span><br>
             <small style="color: gray;">The person you'll be sending the email to.</small>
             <input type="text" name="ContentCreator" id="ContentCreator">
