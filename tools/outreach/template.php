@@ -7,7 +7,7 @@ $Message = $_SESSION['preview']['Output'];
 if(isset($Message)) {
     unset($_SESSION['preview']);
 } else {
-    header('Location: /tools/outreach/EmailGenerator.php');
+    header('Location: /tools/outreach/EmailGenerator');
 }
 
 ?>

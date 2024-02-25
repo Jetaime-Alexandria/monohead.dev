@@ -10,7 +10,7 @@ function SubmitForm() {
   var Output = $("#Output");
 
   $.post(
-    "plugins/submit.php",
+    "plugins/submit",
     {
       ContentCreator: ContentCreator,
       YourName: YourName,
@@ -51,7 +51,7 @@ function ShowPreview() {
     },
     function (data, textStatus, jqXHR) {
         if(data == "success") {
-            window.location.href='template.php';
+            window.location.href='template';
         } else {
             notify("Couldn't open template preview");
         }

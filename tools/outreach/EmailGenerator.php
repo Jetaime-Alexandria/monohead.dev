@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <h2><a href="/index.php"><i class="fa-solid fa-arrow-left"></i></a> Email Generator.</h2>
+    <h2><a href="../index"><i class="fa-solid fa-arrow-left"></i></a> Email Generator.</h2>
     <small>Created with insperation from <a href="https://marketing-gen.wombos.xyz/">Marketing Email Generator by Jacub</a>.<br><i class="fa-solid fa-user"></i> Created by Jet.<br><i class="fa-solid fa-code"></i> Updated on <?= date('m/d/Y h:i a', filemtime('EmailGenerator.php')) ?><br><i class="fa-brands fa-github"></i> Source Code: <a href="https://github.com/Jetaime-Alexandria/monohead.dev/tree/main/tools/outreach">https://github.com/Jetaime-Alexandria/monohead.dev/tree/main/tools/outreach</a></small>
     <hr>
     <br>
