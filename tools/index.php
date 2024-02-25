@@ -13,10 +13,9 @@
  <h2><a href="/index"><i class="fa-solid fa-arrow-left"></i></a> Tools</h2>
  <p>A nice list of tools that could be useful to someone.</p>
  <hr>
+ <h2>Outreach Team</h2>
  <h3><i class="fa-solid fa-envelope"></i> <a href="../tools/outreach/EmailGenerator">Email Generator</a></i></h3>
  <p>A tool that helps generate emails for marketing purposes.</p>
- <a href="../tools/outreach/EmailGenerator">Email Generator</a>
  <hr>
-
 </body>
 </html>
